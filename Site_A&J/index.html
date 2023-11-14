@@ -1,0 +1,312 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- ICONS -->
+    <script
+      src="https://kit.fontawesome.com/24b8b578cb.js"
+      crossorigin="anonymous"
+    ></script>
+
+    <!-- SWEET ALERT -->
+
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11.0.18/dist/sweetalert2.min.js"></script>
+
+    <!-- SWIPER -->
+
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/swiper/swiper-bundle.min.css"
+    />
+
+    <link
+      rel="shortcut icon"
+      href="/images/logo - Copia.png"
+      type="image/x-icon"
+    />
+    <title>Aprender e Jogar</title>
+  </head>
+  <body>
+    <header>
+      <nav class="navbar">
+        <div class="navbar__container">
+          <a href="/"
+            ><img id="navbar__logo" src="/images/logo.png" alt=""
+          /></a>
+          <div class="navbar__toggle" id="mobile-menu" onclick="trocar()">
+            <span class="bar"></span>
+            <span class="bar"></span>
+            <span class="bar"></span>
+          </div>
+          <ul class="navbar__menu">
+            <li class="navbar__item">
+              <a href="#about" class="navbar__links">Quem somos</a>
+            </li>
+
+            <li class="navbar__item">
+              <a href="#modalidades" class="navbar__links">Modalidades</a>
+            </li>
+
+            <li class="navbar__item">
+              <a href="#eventos" class="navbar__links">Eventos</a>
+            </li>
+
+            <li class="navbar__item">
+              <a href="#parceiros" class="navbar__links">Parceiros</a>
+            </li>
+
+            <li class="navbar__item">
+              <a href="#contatos" class="navbar__links">Contatos</a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+    </header>
+
+    <!-- MAIN -->
+
+    <div class="container__section">
+      <div class="container__img">
+        <picture>
+          <source media="(max-width: 1000px)" srcset="/images/fundo2.png" />
+          <img class="section__img" src="/images/fundo.png" alt="Fundo" />
+        </picture>
+      </div>
+    </div>
+
+    <!-- QUEM SOMOS -->
+
+    <section>
+      <div class="container__about" id="about">
+        <h2>Quem somos</h2>
+        <p>
+          Bem-vindo ao projeto transformador que tem marcado a diferença na vida
+          de centenas de crianças e adolescentes em Almirante Tamandaré desde
+          2018. Em parceria sólida entre o SESC Paraná e a Prefeitura local,
+          nasceu uma iniciativa que vai além das quadras e alcança o coração da
+          comunidade.
+        </p>
+        <p>
+          Com o objetivo de promover o esporte, a saúde e o desenvolvimento
+          integral, o projeto atua em quatro locais estratégicos na cidade:
+        </p>
+        <ol>
+          <a href="https://maps.app.goo.gl/u8JX6PUQdoEnhJrK9" target="_blank"
+            ><li id="lista__locais">
+              <strong>Ginásio Buzatão</strong> - R. Antônio Batista de Siqueira,
+              712 - Jardim Sao Domingos, Alm. Tamandaré - PR, 83501-090
+            </li></a
+          >
+
+          <a href="https://maps.app.goo.gl/hnCAVtg7Hq929aSG8" target="_blank"
+            ><li id="lista__locais">
+              <strong>Centro da Juventude</strong> - R. Dep. Max Rosenmann, 100
+              - Col. São Venâncio, Alm. Tamandaré - PR, 83504-230
+            </li></a
+          >
+
+          <a href="https://maps.app.goo.gl/4pLcNyoNC6YhnP5n8" target="_blank"
+            ><li id="lista__locais">
+              <strong>CEU - Centro de Esportes e Artes Unificado</strong> - R.
+              José Milek Filho, 208 - Campina do Arruda, Alm. Tamandaré - PR,
+              83505-727
+            </li></a
+          >
+
+          <a href="https://maps.app.goo.gl/nyY9keUQq7VEnkBv9" target="_blank"
+            ><li id="lista__locais">
+              <strong>Escola Municipal São Jorge</strong> - R. São José - Parque
+              Sao Jorge, Alm. Tamandaré - PR, 83503-290
+            </li></a
+          >
+        </ol>
+        <p>
+          Com um foco multidisciplinar, oferecemos aulas de Futsal, Basquete e
+          Vôlei, criando uma experiência esportiva rica em aprendizado e
+          camaradagem. Acreditamos que o esporte não é apenas um jogo, mas sim
+          uma ferramenta poderosa para o desenvolvimento pessoal e social.
+        </p>
+        <p>
+          Atualmente, orgulhamo-nos de atender 600 crianças e adolescentes, com
+          idades entre 5 e 17 anos. Vemos a mudança acontecendo não apenas nas
+          habilidades esportivas, mas também no crescimento pessoal, na
+          construção de amizades e na promoção de valores fundamentais.
+        </p>
+        <p>
+          Queremos construir um futuro brilhante para as gerações vindouras.
+          Seja parte dessa jornada de crescimento, descoberta e transformação.
+          Junte-se a nós enquanto continuamos a trilhar o caminho do esporte,
+          educação e inclusão em Almirante Tamandaré.
+        </p>
+      </div>
+    </section>
+
+    <!-- MODALIDADES -->
+
+    <section class="section__modalidades">
+      <h2 id="modalidades">Modalidades</h2>
+
+      <div class="container__modalidades">
+        <div class="modalidades__title">
+          <h4>Futsal</h4>
+          <div>
+            <img id="modalidades__img" src="/images/futsal.jpg" alt="Futsal" />
+            <figcaption id="modalidades__text">
+              O futsal é uma variante indoor do futebol, jogada em um campo
+              menor e com uma bola menor, enfatizando habilidade e controle de
+              bola.
+            </figcaption>
+          </div>
+          <i id="icons__modalidades" class="fa-solid fa-location-dot"></i>
+          <p id="locais">
+            Ginásio Buzatão; CEU; Centro da Juventude; Escola São Jorge.
+          </p>
+        </div>
+
+        <div class="modalidades__title">
+          <h4>Voleibol</h4>
+          <div>
+            <img id="modalidades__img" src="/images/volei.jpg" alt="Futsal" />
+            <figcaption id="modalidades__text">
+              Voleibol é um esporte dinâmico, jogado com duas equipes separadas
+              por uma rede, onde o objetivo é enviar a bola por cima da rede
+              para marcar pontos.
+            </figcaption>
+          </div>
+          <i id="icons__modalidades" class="fa-solid fa-location-dot"></i>
+          <p id="locais">Ginásio Buzatão; CEU; Centro da Juventude.</p>
+        </div>
+
+        <div class="modalidades__title">
+          <h4>Basquete</h4>
+          <div>
+            <img
+              id="modalidades__img"
+              src="/images/basquete.jpg"
+              alt="Futsal"
+            />
+            <figcaption id="modalidades__text">
+              Basquete é um esporte emocionante que envolve duas equipes
+              competindo para marcar mais cestas, combinando habilidade,
+              estratégia e agilidade.
+            </figcaption>
+          </div>
+          <i id="icons__modalidades" class="fa-solid fa-location-dot"></i>
+          <p id="locais">Centro da Juventude.</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- EVENTOS -->
+
+    <section class="section__eventos">
+      <h2 id="eventos">Eventos</h2>
+
+      <div class="eventos">
+        <div class="container__eventos">
+          <h4>Festival de Voleibol</h4>
+          <div>
+            <img
+              id="eventos__img"
+              src="/images/festival_volei.jpg"
+              alt="Festival Vôlei"
+            />
+          </div>
+        </div>
+
+        <div class="container__eventos">
+          <h4>Festival Arena Fut7</h4>
+          <div>
+            <img
+              id="eventos__img"
+              src="/images/festival_fut7.jpg"
+              alt="Festival Fut7"
+            />
+          </div>
+        </div>
+
+        <div class="container__eventos">
+          <h4>Jogos amistosos</h4>
+          <div>
+            <img id="eventos__img" src="/images/amistoso.jpg" alt="Amistoso" />
+          </div>
+        </div>
+
+        <div class="container__eventos">
+          <h4>Festival da Criança</h4>
+          <div>
+            <img
+              id="eventos__img"
+              src="/images/festival_crianca.jpg"
+              alt="Festival Criança"
+            />
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- PARCEIROS -->
+
+    <section class="section__parceiros">
+      <h2 id="parceiros">Parceiros</h2>
+
+      <div class="container__parceiros">
+        <div class="parceiros">
+          <h4>SESC PR</h4>
+          <div>
+            <img
+              style="width: 300px; height: 150px"
+              src="/images/logo-sesc.svg"
+              alt=""
+            />
+            <!-- <img id="parceiros__img" src="/images/sesc.png" alt="SESC" /> -->
+          </div>
+        </div>
+
+        <div class="parceiros">
+          <h4>Secretaria de Esporte e Lazer de Almirante Tamandaré</h4>
+          <div>
+            <img id="parceiros__img" src="/images/smel.png" alt="SMEL" />
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- FOOTER -->
+
+    <footer>
+      <h2 id="title_contatos">Contatos</h2>
+      <div id="contatos" class="container__footer">
+        <a
+          id="linkicons"
+          href="https://www.instagram.com/sesc_pr/?hl=pt"
+          target="_blank"
+          ><i id="icons__contatos" class="fa-brands fa-instagram"></i
+        ></a>
+
+        <a href="mailto:joyce.ramalho@sescpr.com.br">
+          <i id="icons__contatos" class="fa-regular fa-envelope"></i>
+        </a>
+
+        <!-- <a
+          id="linkicons"
+          href="https://api.whatsapp.com/send?phone=+5541991065081&text=Olá! Gostaria de ter mais informações!"
+          class="button"
+          target="_blank"
+          ><i id="icons__contatos" class="fa-brands fa-whatsapp"></i
+        ></a> -->
+      </div>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
